@@ -1,0 +1,209 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Nov 29 18:05:31 IST 2018</td>
+</tr>
+<tr><td>Total time:</td><td>40 seconds (40691 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='in.dishtv.generictest.HomeTest.verifyAlllinksOnHomeScreen()'><b>verifyAlllinksOnHomeScreen</b><br>Test class: in.dishtv.generictest.HomeTest<br/>
+<a href="#Output-475603167" onClick='toggleBox("Output-475603167", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-475603167" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-475603167">
+Login successful.<br/>
+Total no of links present on the current webpage are :118<br/>
+unknown protocol: javascript<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//LandingPage.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081// - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//# - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/Report/CSQualityAuditFeedBack.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/Report/CSTLAuditFeedback.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Preshift/ManagePreshiftMarque.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Preshift/ManagePreshiftUpdates.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/InnerPages/CSCustomerRetentionAgentWise.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/Admin/CSAssignRole.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/CCAddons/CSAgentPendingComplaints.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/InnerPages/CSPendingCareDeskLead.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/CCAddons/CSCAT.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/CCAddons/CSCAT4User.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/CCAddons/CSMysteryCalling.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/Admin/CSMysteryTopic.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AgentPerformance.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/Admin/CSPaymentGateway.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/CCAddonUpsellingToggle.aspx - Not Found<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081// - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/KAIZENtest/AgentRight.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/KAIZENtest/UploadQuestion.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/CCAddons/CSTroubleShootingType.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/KAIZENtest/BOD.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/CCVoiceOfCustomer.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/RemoveAspectUserAccess.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/CCAddons/CSMidShift.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/CCDowngradeRetentionChangeUSP.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/Admin/CSSTBModelUpdation.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//# - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/CSAuditCall.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/CSCalibrationAuditCall.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/InnerPages/CSCallClosureForQualityAgent.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/Report/CSQAReport.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/CSAuditRebuttal.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/CSCampaignAuditCall.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/CSCFCampaignAudit.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/OBAuditCall/OBSuperAutoAuditCall.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/OBAuditCall/OBAutoAuditCall.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/OBAuditCall/OBCenterWiseAuditCount.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/AuditCall/OBAuditCall/OBCenterWiseAudit.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/BaseProcess/Activation/ActivationHome.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//# - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/MaterialMovement/VoucherReversal.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//# - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//# - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/STBRepairing.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/ActivationDetails.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/UpdateForm.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/BulkSTBVCLocator.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/STBVCLocator.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/STBVCLocatorBulkSearch.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/UnrecoUtility.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/DSDLTagging.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/VCMobileTaggingInfo.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/TransactionDoneBy.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/VoucherLocator.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/FTAVCSTB.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/PrepaidLeadStatus.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/ServiceCRM/Top10MobileList.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/CAS5LocatorVC.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/MaterialMovementReport.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Winback/Winback.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/AuditHeader.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//# - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/InnerPages/CSEmailViewer.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/ServiceCRM/demoInstallation.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/ServiceCRM/demoInstallation.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/ServiceCRM/demoapproval.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/USPEmailTemplate.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/UpdateSubsInfo.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/UpdateTod9SubsInfo.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/ServiceCRM/EMICustomerDetails.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/DCCStock.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/CheckParentVCSTB.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Search/DsDlAccInfo.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/InnerPages/CSSAFVerification.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/EmailToSubscriber.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/LCN.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/UploadVoucher.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/SOA.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/SearchGoDirectDetail.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/ProspectiveVoucherUpload.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/IdBlocker.aspx - Not Found<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/StockUpdate.aspx - Not Found<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CustomerService/PackageComparisionWindow.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/MaterialMovement/ItemLocator.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/DishMagicMobileDetails.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/CMS/PickByChannel.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/RainFadeMarking.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/CCHotelInvoice.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/UpdateChannelDetails.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/resetkitty.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/RCTestActivationVC.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/DialerAttemptUpload.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/SalesCRM/GDAreaWeakLocationMark.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/tocconversion.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/FTAFlagUpdation.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Pages/Utilities/MeraApnaPack.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Reports/ReportingPanel.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//ChangePassword.aspx - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081//Logout.aspx - OK<br/>
+unknown protocol: javascript<br/>
+unknown protocol: javascript<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081/LandingPage.aspx# - OK<br/>
+http://www.dishtvbiz.in/pages/Utilities/Feedback.aspx - OK<br/>
+unknown protocol: javascript<br/>
+unknown protocol: javascript<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081/LandingPage.aspx# - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081/LandingPage.aspx# - OK<br/>
+http://dishdev.southindia.cloudapp.azure.com:8081/LandingPage.aspx# - OK<br/>
+http://www.dishtvbiz.in/Documents/pop-up.html - Not Found<br/>
+http://www.dishtvbiz.in/Documents/new_website_training.ppt - Not Found<br/>
+http://www.dishtvbiz.in/Documents/WELCOME_HOME_FAQs.pdf - Not Found<br/>
+http://www.dishtvbiz.in/Documents/Safform.dot - Not Found<br/>
+http://www.dishtvbiz.in/Documents/dishLogo.zip - Not Found<br/>
+unknown protocol: javascript<br/>
+</div>
+</td>
+<td></td>
+<td>37</td>
+<td>in.dishtv.generictest.HomeTest@53b32d7</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome browser has been launched successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PHOENIXLOGINBLANKVALIDATION has been passed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PHOENIXLOGININVALIDUSERIDINVALIDPASSWORD has been passed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PHOENIXLOGININVALIDUSERIDINVALIDPASSWORD has been passed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PHOENIXLOGININVALIDUSERIDVALIDPASSWORD has been passed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PHOENIXLOGINVALIDUSERIDINVALIDPASSWORD has been passed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PHOENIXLOGINVALIDUSERIDVALIDPASSWORD has been passed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[PHOENIXLOGOUT has been passed successfully.]]>
+    </line>
+    <line>
+      <![CDATA[Current browser instance has been closed.]]>
+    </line>
+  </reporter-output>
+  <suite name="SuitPhoenixLoginLogout" duration-ms="77510" started-at="2018-12-03T13:03:53Z" finished-at="2018-12-03T13:05:11Z">
+    <groups>
+    </groups>
+    <test name="PhoenixLoginLogout-Test" duration-ms="77510" started-at="2018-12-03T13:03:53Z" finished-at="2018-12-03T13:05:11Z">
+      <class name="in.dishtv.Phoenix.PhoenixLoginLogoutTest">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="launchBrowser" is-config="true" duration-ms="2828" started-at="2018-12-03T13:03:53Z" finished-at="2018-12-03T13:03:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser has been launched successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="phoenixLoginBlankValidation()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="phoenixLoginBlankValidation" duration-ms="2917" started-at="2018-12-03T13:03:56Z" finished-at="2018-12-03T13:03:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoenixLoginBlankValidation -->
+        <test-method status="PASS" signature="resultAnalysis(org.testng.ITestResult)[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="resultAnalysis" is-config="true" duration-ms="598" started-at="2018-12-03T13:03:59Z" finished-at="2018-12-03T13:04:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoenixLoginBlankValidation status=SUCCESS method=PhoenixLoginLogoutTest.phoenixLoginBlankValidation()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PHOENIXLOGINBLANKVALIDATION has been passed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resultAnalysis -->
+        <test-method status="PASS" signature="phoenixLoginInValidUseridInvalidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="phoenixLoginInValidUseridInvalidPassword" duration-ms="1995" started-at="2018-12-03T13:04:00Z" finished-at="2018-12-03T13:04:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoenixLoginInValidUseridInvalidPassword -->
+        <test-method status="PASS" signature="resultAnalysis(org.testng.ITestResult)[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="resultAnalysis" is-config="true" duration-ms="529" started-at="2018-12-03T13:04:02Z" finished-at="2018-12-03T13:04:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoenixLoginInValidUseridInvalidPassword status=SUCCESS method=PhoenixLoginLogoutTest.phoenixLoginInValidUseridInvalidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PHOENIXLOGININVALIDUSERIDINVALIDPASSWORD has been passed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resultAnalysis -->
+        <test-method status="PASS" signature="phoenixLoginInValidUseridInvalidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="phoenixLoginInValidUseridInvalidPassword" duration-ms="1422" started-at="2018-12-03T13:04:02Z" finished-at="2018-12-03T13:04:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoenixLoginInValidUseridInvalidPassword -->
+        <test-method status="PASS" signature="resultAnalysis(org.testng.ITestResult)[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="resultAnalysis" is-config="true" duration-ms="523" started-at="2018-12-03T13:04:03Z" finished-at="2018-12-03T13:04:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoenixLoginInValidUseridInvalidPassword status=SUCCESS method=PhoenixLoginLogoutTest.phoenixLoginInValidUseridInvalidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PHOENIXLOGININVALIDUSERIDINVALIDPASSWORD has been passed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resultAnalysis -->
+        <test-method status="PASS" signature="phoenixLoginInvalidUseridValidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="phoenixLoginInvalidUseridValidPassword" duration-ms="2065" started-at="2018-12-03T13:04:04Z" finished-at="2018-12-03T13:04:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoenixLoginInvalidUseridValidPassword -->
+        <test-method status="PASS" signature="resultAnalysis(org.testng.ITestResult)[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="resultAnalysis" is-config="true" duration-ms="526" started-at="2018-12-03T13:04:06Z" finished-at="2018-12-03T13:04:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoenixLoginInvalidUseridValidPassword status=SUCCESS method=PhoenixLoginLogoutTest.phoenixLoginInvalidUseridValidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PHOENIXLOGININVALIDUSERIDVALIDPASSWORD has been passed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resultAnalysis -->
+        <test-method status="PASS" signature="phoenixLoginValidUseridInvalidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="phoenixLoginValidUseridInvalidPassword" duration-ms="1283" started-at="2018-12-03T13:04:07Z" finished-at="2018-12-03T13:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoenixLoginValidUseridInvalidPassword -->
+        <test-method status="PASS" signature="resultAnalysis(org.testng.ITestResult)[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="resultAnalysis" is-config="true" duration-ms="529" started-at="2018-12-03T13:04:08Z" finished-at="2018-12-03T13:04:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoenixLoginValidUseridInvalidPassword status=SUCCESS method=PhoenixLoginLogoutTest.phoenixLoginValidUseridInvalidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PHOENIXLOGINVALIDUSERIDINVALIDPASSWORD has been passed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resultAnalysis -->
+        <test-method status="PASS" signature="phoenixLoginValidUseridValidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="phoenixLoginValidUseridValidPassword" duration-ms="59926" started-at="2018-12-03T13:04:08Z" finished-at="2018-12-03T13:05:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoenixLoginValidUseridValidPassword -->
+        <test-method status="PASS" signature="resultAnalysis(org.testng.ITestResult)[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="resultAnalysis" is-config="true" duration-ms="584" started-at="2018-12-03T13:05:08Z" finished-at="2018-12-03T13:05:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoenixLoginValidUseridValidPassword status=SUCCESS method=PhoenixLoginLogoutTest.phoenixLoginValidUseridValidPassword()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PHOENIXLOGINVALIDUSERIDVALIDPASSWORD has been passed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resultAnalysis -->
+        <test-method status="PASS" signature="phoenixLogout()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="phoenixLogout" duration-ms="1203" started-at="2018-12-03T13:05:09Z" finished-at="2018-12-03T13:05:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phoenixLogout -->
+        <test-method status="PASS" signature="resultAnalysis(org.testng.ITestResult)[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="resultAnalysis" is-config="true" duration-ms="557" started-at="2018-12-03T13:05:10Z" finished-at="2018-12-03T13:05:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=phoenixLogout status=SUCCESS method=PhoenixLoginLogoutTest.phoenixLogout()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[PHOENIXLOGOUT has been passed successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- resultAnalysis -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:in.dishtv.Phoenix.PhoenixLoginLogoutTest@14bf9759]" name="tearDown" is-config="true" duration-ms="0" started-at="2018-12-03T13:05:11Z" finished-at="2018-12-03T13:05:11Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Current browser instance has been closed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- in.dishtv.Phoenix.PhoenixLoginLogoutTest -->
+    </test> <!-- PhoenixLoginLogout-Test -->
+  </suite> <!-- SuitPhoenixLoginLogout -->
+</testng-results>

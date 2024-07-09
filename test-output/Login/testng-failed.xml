@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Login]">
+  <test thread-count="5" name="Login(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="in.dishtv.generictest.LoginTest">
+        <methods>
+          <include name="loginwithValidUserIDPassword"/>
+          <include name="tearDown"/>
+          <include name="login_InvalidUserIdValidPassword"/>
+          <include name="login_ValidUserIDInvalidPassword"/>
+          <include name="launchBrowser"/>
+          <include name="resultAnalysis"/>
+          <include name="loginBlankCredentials"/>
+          <include name="login_InvalidUserIDIandPassword"/>
+        </methods>
+      </class> <!-- in.dishtv.generictest.LoginTest -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Login] -->
